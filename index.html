@@ -62,9 +62,11 @@ padding:50px 20px;
 .producto{
 background:#123;
 padding:20px;
-margin:15px auto;
-max-width:300px;
-border-radius:12px;
+width:260px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+text-align:center;
 }#tienda{
 display:flex;
 flex-wrap:wrap;
@@ -80,6 +82,9 @@ max-width:220px;
 height:auto;
 border-radius:10px;
 margin-bottom:15px;
+}.producto:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.5);
 }
 footer{
 background:#06111d;
